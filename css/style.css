@@ -98,7 +98,7 @@ hr {
 .botonclas button {
   justify-content: center;
   color: #ffffff;
-  background-image: url(bo.jpg);
+  background-image: url(/img/bo.jpg);
   border-radius: 0.3rem;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.2rem;
