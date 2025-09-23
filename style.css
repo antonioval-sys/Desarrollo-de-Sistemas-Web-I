@@ -95,7 +95,6 @@ hr {
   align-items: center;
 }
 
-
 .botonclas button {
   justify-content: center;
   color: #ffffff;
@@ -111,11 +110,9 @@ hr {
   cursor: pointer;
 }
 
-
 .formulario .fecha {
   inline-size: 10%;
 }
-
 
 .formulario input {
   background-color: transparent;
@@ -136,9 +133,7 @@ hr {
   outline: none;
   border-block-end: 2px solid #000;
   background-color: rgba(255, 255, 255, 0.1);
-
 }
-
 
 .resultados h1 {
   font-size: 1.8rem;
@@ -165,6 +160,4 @@ hr {
   margin: 0 auto;
   inline-size: 250px;
   block-size: 250px;
- 
-
 }
