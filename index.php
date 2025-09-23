@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a71707a89a.js" crossorigin="anonymous"></script>
-<link rel="shortcut icon" href=".img/sello.png" type="image/x-icon">
-    <link rel="stylesheet" href=".css/style.css" />
+<link rel="shortcut icon" href="img/sello.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Captura de Datos</title>
 </head>
 
@@ -20,7 +20,7 @@
             <p>Mi primera encuesta</p>
         </div>
         <div class="formulario">
-            <form action="resultados.html" method="get">
+            <form action="resultados.php" method="get">
                 <label for="name">Nombre: </label>
                 <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
                 <hr class="linea1">
