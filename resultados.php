@@ -12,7 +12,7 @@
     <div class="fondo">
         <div class="resultados">
     <h1>Resultados</h1>
-    <img src="escudo.png" alt="escudo">
+    <img src="./img/escudo.png" alt="escudo">
     <h2>Gracias por ingresar tus datos</h2>
         </div>
         </div>
