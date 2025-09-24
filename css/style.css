@@ -215,14 +215,12 @@ hr {
 /* Ícono del modal */
 #box i {
    background-image: url(../img/bo.jpg);
-
+ border-radius: 3rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 1rem 0 0 0 ;
-
-    filter: brightness(0.9) contrast(1.2) saturate(1.5);
-}
+  }
 
 /* Título dentro del modal */
 #box h2 {
