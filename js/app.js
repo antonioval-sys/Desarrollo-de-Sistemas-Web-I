@@ -6,15 +6,19 @@ function CustomAlert() {
         popUpBox.style.display = "block";
         popUpOverlay.style.display = "block";
 
-        document.getElementById('closeModal').innerHTML = `
-            <button type="button" onclick="customAlert.ok()">¡Si quiero!</button>
-        `;
+        document.getElementById('closeModal').innerHTML = `<div class="modal-buttons">
+        <button type="button" onclick="customAlert.ok()">¡Si quiero!</button>
+        <button type="button" onclick="customAlert.cancel()">No quiero</button>
+        </div>`;
     }
 
     this.ok = function () {
         document.getElementById('popUpBox').style.display = "none";
         document.getElementById('popUpOverlay').style.display = "none";
-        // Si quieres redirigir a index.html, descomenta la siguiente línea:
-        // window.location.href = "index.html";
+         window.location.href = "index.php";
+    }
+     this.cancel = function () {
+        document.getElementById('popUpBox').style.display = "none";
+        document.getElementById('popUpOverlay').style.display = "none";
     }
 }
